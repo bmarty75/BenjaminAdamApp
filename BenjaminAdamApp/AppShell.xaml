@@ -4,11 +4,28 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:BenjaminAdamApp"
-    Title="BenjaminAdamApp">
+    Shell.FlyoutBehavior="Disabled"
+    
+    Shell.TabBarBackgroundColor="White"
+    Shell.TabBarForegroundColor="#4A2E1B" 
+    Shell.TabBarTitleColor="#4A2E1B"
+    Shell.TabBarUnselectedColor="#B0B0B0">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Accueil" Icon="home_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
 
+        <Tab Title="Découvrir" Icon="list_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ListPage}" />
+        </Tab>
+
+        <Tab Title="Ajouter" Icon="add_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AddPage}" />
+        </Tab>
+
+        <Tab Title="Plus" Icon="star_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ExtraPage}" />
+        </Tab>
+    </TabBar>
 </Shell>

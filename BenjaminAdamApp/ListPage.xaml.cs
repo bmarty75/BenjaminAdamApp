@@ -2,7 +2,7 @@ namespace BenjaminAdamApp;
 
 public partial class ListPage : ContentPage
 {
-    private CoffeeService _service = new CoffeeService();
+    private BeerService _service = new BeerService();
 
     public ListPage()
     {
@@ -17,11 +17,11 @@ public partial class ListPage : ContentPage
         LoadingIndicator.IsRunning = true;
         LoadingIndicator.IsVisible = true;
 
-        var cafes = await _service.GetHotCoffeesAsync();
+        var bieres = await _service.GetBeersAsync();
         
-        CoffeeCollection.ItemsSource = cafes;
+        BeerCollection.ItemsSource = bieres;
         
-        CoffeeCollection.IsVisible = true;
+        BeerCollection.IsVisible = true;
         LoadingIndicator.IsVisible = false;
         LoadingIndicator.IsRunning = false;
     }

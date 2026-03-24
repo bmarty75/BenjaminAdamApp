@@ -6,10 +6,10 @@
     <ScrollView>
         <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
 
-            <Image x:Name="Logo" Source="logo_coffee.svg" HeightRequest="150" />
+            <Image x:Name="LogoImage" Source="logo_benadam.png" HeightRequest="150" />
     
             <Label Text="Bienvenue chez" FontSize="24" HorizontalOptions="Center" />
-            <Label Text="BenAdam Coffee Co." FontSize="32" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#4A2E1B" />
+            <Label Text="BenAdam Beer Co." FontSize="32" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#4A2E1B" />
 
             <Grid ColumnDefinitions="*,*" ColumnSpacing="15" Margin="0,30,0,0">
                 <Image Grid.Column="0" Source="coffee_cup.png" HeightRequest="150" />

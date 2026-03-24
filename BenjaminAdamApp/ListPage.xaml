@@ -14,9 +14,9 @@
                            IsRunning="True" IsVisible="True"
                            VerticalOptions="Center" HorizontalOptions="Center" Color="#4A2E1B" />
 
-        <CollectionView Grid.Row="1" x:Name="CoffeeCollection" Margin="10" IsVisible="False">
+        <CollectionView Grid.Row="1" x:Name="BeerCollection" Margin="10" IsVisible="False">
             <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="local:Coffee">
+                <DataTemplate x:DataType="local:Beer">
                     <Border Margin="5,10" Padding="10" StrokeShape="RoundRectangle 15" StrokeThickness="1">
                         <Border.Stroke>
                             <SolidColorBrush Color="#E0E0E0" />

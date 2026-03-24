@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace BenjaminAdamApp;
 
-public class Coffee
+public class Beer
 {
     [JsonPropertyName("name")]
     public string Title { get; set; } = string.Empty;

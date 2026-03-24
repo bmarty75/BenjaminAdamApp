@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BenjaminAdamApp.MainPage">
@@ -6,7 +6,7 @@
     <ScrollView>
         <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
 
-            <Image Source="logo_coffee.svg" HeightRequest="150" />
+            <Image x:Name="Logo" Source="logo_coffee.svg" HeightRequest="150" />
     
             <Label Text="Bienvenue chez" FontSize="24" HorizontalOptions="Center" />
             <Label Text="BenAdam Coffee Co." FontSize="32" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#4A2E1B" />
@@ -15,6 +15,8 @@
                 <Image Grid.Column="0" Source="coffee_cup.png" HeightRequest="150" />
                 <Image Grid.Column="1" Source="coffee_beans.png" HeightRequest="150" />
             </Grid>
+
+            <Button Text="Voir l'animation GIF" Clicked="OnGifButtonClicked" Margin="0,20,0,0" HorizontalOptions="Center" BackgroundColor="#4A2E1B" TextColor="White" Padding="20,10" CornerRadius="10" />
 
         </VerticalStackLayout>
     </ScrollView>

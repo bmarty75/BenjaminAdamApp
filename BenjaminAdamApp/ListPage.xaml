@@ -6,22 +6,30 @@
              Title="Découvrir">
 
     <Grid RowDefinitions="Auto, *">
-        <Label Text="La carte BenAdam" 
-               FontSize="28" FontAttributes="Bold" Padding="20" 
+        <Label Text="La carte BenAdam"
+               FontSize="28" FontAttributes="Bold" Padding="20"
                HorizontalOptions="Center" TextColor="#4A2E1B" />
 
-        <ActivityIndicator Grid.Row="1" x:Name="LoadingIndicator" 
-                           IsRunning="True" IsVisible="True"
-                           VerticalOptions="Center" HorizontalOptions="Center" Color="#4A2E1B" />
+        <ActivityIndicator Grid.Row="1"
+                           IsRunning="{Binding IsLoading}"
+                           IsVisible="{Binding IsLoading}"
+                           VerticalOptions="Center" HorizontalOptions="Center"
+                           Color="#4A2E1B" />
 
-        <CollectionView Grid.Row="1" x:Name="BeerCollection" Margin="10" IsVisible="False">
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Beers}"
+                        IsVisible="{Binding IsListVisible}"
+                        Margin="10"
+                        SelectionMode="Single"
+                        SelectionChangedCommand="{Binding SelectBeerCommand}"
+                        SelectionChangedCommandParameter="{Binding SelectedItem, Source={RelativeSource Self}}">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="local:Beer">
                     <Border Margin="5,10" Padding="10" StrokeShape="RoundRectangle 15" StrokeThickness="1">
                         <Border.Stroke>
                             <SolidColorBrush Color="#E0E0E0" />
                         </Border.Stroke>
-                        
+
                         <HorizontalStackLayout Spacing="15">
                             <Border StrokeShape="RoundRectangle 10" HeightRequest="100" WidthRequest="100">
                                 <Image Source="{Binding ImageUrl}" Aspect="AspectFill" />
@@ -37,4 +45,5 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
     </Grid>
+
 </ContentPage>

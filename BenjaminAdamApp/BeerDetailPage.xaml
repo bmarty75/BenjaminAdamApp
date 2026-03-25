@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BenjaminAdamApp.BeerDetailPage"
+             Title="Détail">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            <Border StrokeShape="RoundRectangle 20" HeightRequest="250">
+                <Image Source="{Binding ImageUrl}" Aspect="AspectFill" />
+            </Border>
+
+            <Label Text="{Binding Title}"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#4A2E1B" />
+
+            <BoxView HeightRequest="1" Color="#E0E0E0" Margin="0,5" />
+
+            <Label Text="Prix"
+                   FontSize="14"
+                   TextColor="Gray"
+                   FontAttributes="Italic" />
+
+            <Label Text="{Binding Description}"
+                   FontSize="20"
+                   TextColor="#4A2E1B"
+                   FontAttributes="Bold" />
+
+            <Button Text="← Retour à la liste"
+                    Clicked="OnBackClicked"
+                    BackgroundColor="#4A2E1B"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="20,10"
+                    Margin="0,20,0,0"
+                    HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

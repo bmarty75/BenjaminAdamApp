@@ -41,8 +41,18 @@ public class ListViewModel : INotifyPropertyChanged
 
         var list = await _service.GetBeersAsync();
         Beers.Clear();
+        
+        // D'abord, on charge les bières ajoutées en local par l'utilisateur
+        foreach (var myBeer in BeerStore.MyBeers)
+        {
+            Beers.Add(myBeer);
+        }
+
+        // Ensuite on charge les bières de l'API
         foreach (var beer in list)
+        {
             Beers.Add(beer);
+        }
 
         IsLoading = false;
         IsListVisible = true;

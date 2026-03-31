@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BenjaminAdamApp.AddPage" Title="Ajouter un Café">
-    <Label Text="Formulaire d'ajout à venir..." VerticalOptions="Center" HorizontalOptions="Center" />
+             x:Class="BenjaminAdamApp.AddPage"
+             Title="Ajouter">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20" VerticalOptions="Center">
+            
+            <Label Text="Nouvelle bière" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#4A2E1B" Margin="0,0,0,20"/>
+
+            <Frame BorderColor="#4A2E1B" CornerRadius="10" Padding="5">
+                <Entry Placeholder="Nom de la bière" 
+                       Text="{Binding Title}" 
+                       ClearButtonVisibility="WhileEditing"/>
+            </Frame>
+
+            <Frame BorderColor="#4A2E1B" CornerRadius="10" Padding="5">
+                <Entry Placeholder="Prix (ex: $10.99)" 
+                       Text="{Binding Description}" 
+                       Keyboard="Text" 
+                       ClearButtonVisibility="WhileEditing"/>
+            </Frame>
+
+            <Frame BorderColor="#4A2E1B" CornerRadius="10" Padding="5">
+                <Entry Placeholder="URL de l'image (optionnel)" 
+                       Text="{Binding ImageUrl}" 
+                       Keyboard="Url" 
+                       ClearButtonVisibility="WhileEditing"/>
+            </Frame>
+
+            <Button Text="Ajouter à la carte" 
+                    Command="{Binding AddBeerCommand}" 
+                    BackgroundColor="#4A2E1B" 
+                    TextColor="White" 
+                    CornerRadius="10" 
+                    Padding="15"
+                    Margin="0,20,0,0"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

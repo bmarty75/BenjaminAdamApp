@@ -17,85 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0c8a76-f7a1-41e6-9689-2a15d6f3fec1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/AndroidProjectSystem.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_activity_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_activity_activity_ktx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_annotation_annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_annotation_annotation_experimental.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_annotation_annotation_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_appcompat_appcompat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_appcompat_appcompat_resources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_arch_core_core_common.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_arch_core_core_runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_browser_browser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_cardview_cardview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_collection_collection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_collection_collection_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_collection_collection_ktx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_concurrent_concurrent_futures.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_constraintlayout_constraintlayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_constraintlayout_constraintlayout_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_coordinatorlayout_coordinatorlayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_core_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_core_core_ktx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_core_core_viewtree.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_cursoradapter_cursoradapter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_customview_customview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_customview_customview_poolingcontainer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_drawerlayout_drawerlayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_dynamicanimation_dynamicanimation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_emoji2_emoji2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_emoji2_emoji2_views_helper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_exifinterface_exifinterface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_fragment_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_fragment_fragment_ktx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_interpolator_interpolator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_common.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_common_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_livedata.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_livedata_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_livedata_core_ktx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_process.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_runtime_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_runtime_ktx_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_viewmodel_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_viewmodel_ktx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_lifecycle_lifecycle_viewmodel_savedstate_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_loader_loader.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_navigation_navigation_common_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_navigation_navigation_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_navigation_navigation_runtime_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_navigation_navigation_ui.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_profileinstaller_profileinstaller.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_recyclerview_recyclerview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_resourceinspection_resourceinspection_annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_savedstate_savedstate_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_savedstate_savedstate_ktx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_security_security_crypto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_slidingpanelayout_slidingpanelayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_startup_startup_runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_swiperefreshlayout_swiperefreshlayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_tracing_tracing_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_transition_transition.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_vectordrawable_vectordrawable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_vectordrawable_vectordrawable_animated.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_versionedparcelable_versionedparcelable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_viewpager2_viewpager2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_viewpager_viewpager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_window_window.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_window_window_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/androidx_window_window_core_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/com_google_android_material_material.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/gifdecoder.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/glide.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/libraries/maui.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BenjaminAdamApp/AddViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BenjaminAdamApp/BeerStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BenjaminAdamApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BenjaminAdamApp/AddPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/BenjaminAdamApp/AddPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BenjaminAdamApp/AddPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BenjaminAdamApp/AddPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BenjaminAdamApp/ListViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BenjaminAdamApp/ListViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,27 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android.BenjaminAdamApp.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20260324_0000&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marty/BenjaminAdamApp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSettingsPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android.BenjaminAdamApp.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.google.cloudcode.ide_session_index": "20260331_0000",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/marty/BenjaminAdamApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "AndroidSettingsPageId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Android.BenjaminAdamApp">
     <configuration name="BenjaminAdamApp: Windows Machine" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BenjaminAdamApp/BenjaminAdamApp.csproj" />
@@ -211,6 +138,7 @@
       <workItem from="1773752161929" duration="1045000" />
       <workItem from="1773753314512" duration="9466000" />
       <workItem from="1774356034896" duration="8613000" />
+      <workItem from="1774961378881" duration="271000" />
     </task>
     <task id="LOCAL-00001" summary="Enhance UI layout and navigation structure with new tabs and updated icons">
       <option name="closed" value="true" />

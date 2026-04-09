@@ -1,6 +1,146 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BenjaminAdamApp.ExtraPage" Title="Plus d'options">
-    <Label Text="Fonctionnalités bonus à venir..." VerticalOptions="Center" HorizontalOptions="Center" />
+             xmlns:local="clr-namespace:BenjaminAdamApp"
+             x:Class="BenjaminAdamApp.ExtraPage"
+             Title="Plus">
+
+    <ScrollView Padding="20">
+        <VerticalStackLayout Spacing="30">
+
+            <!-- Titre -->
+            <Label Text="Extras"
+                   FontSize="32" FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#4A2E1B" />
+
+            <!-- ===== Fonctionnalité 1 : Suggestion aléatoire ===== -->
+            <Border StrokeShape="RoundRectangle 15" Padding="20" StrokeThickness="1">
+                <Border.Stroke>
+                    <SolidColorBrush Color="#E0E0E0" />
+                </Border.Stroke>
+                <VerticalStackLayout Spacing="15">
+
+                    <Label Text="Quelle bière boire ce soir ?"
+                           FontSize="20" FontAttributes="Bold"
+                           TextColor="#4A2E1B" HorizontalOptions="Center" />
+
+                    <Label Text="Laisse le hasard décider !"
+                           FontSize="14" TextColor="Gray"
+                           HorizontalOptions="Center" />
+
+                    <Button Text="Suggère-moi une bière"
+                            Command="{Binding SuggestBeerCommand}"
+                            BackgroundColor="#4A2E1B"
+                            TextColor="White"
+                            CornerRadius="12"
+                            HeightRequest="48"
+                            FontAttributes="Bold" />
+
+                    <!-- Résultat de la suggestion -->
+                    <Border IsVisible="{Binding HasSuggestion}"
+                            StrokeShape="RoundRectangle 12"
+                            Padding="15"
+                            BackgroundColor="#FFF8F0">
+                        <Border.Stroke>
+                            <SolidColorBrush Color="#4A2E1B" />
+                        </Border.Stroke>
+                        <HorizontalStackLayout Spacing="15">
+                            <Border StrokeShape="RoundRectangle 8"
+                                    HeightRequest="80" WidthRequest="80">
+                                <Image Source="{Binding SuggestedBeer.ImageUrl}"
+                                       Aspect="AspectFill" />
+                            </Border>
+                            <VerticalStackLayout VerticalOptions="Center" Spacing="4">
+                                <Label Text="{Binding SuggestedBeer.Title}"
+                                       FontAttributes="Bold"
+                                       FontSize="16"
+                                       TextColor="#4A2E1B" />
+                                <Label Text="{Binding SuggestedBeer.Description}"
+                                       FontSize="14"
+                                       TextColor="Gray" />
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                    </Border>
+
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- ===== Fonctionnalité 2 : Compteur de bières goûtées ===== -->
+            <Border StrokeShape="RoundRectangle 15" Padding="20" StrokeThickness="1">
+                <Border.Stroke>
+                    <SolidColorBrush Color="#E0E0E0" />
+                </Border.Stroke>
+                <VerticalStackLayout Spacing="15">
+
+                    <Label Text="Mon compteur de bières"
+                           FontSize="20" FontAttributes="Bold"
+                           TextColor="#4A2E1B" HorizontalOptions="Center" />
+
+                    <Label Text="{Binding TastedLabel}"
+                           FontSize="14" TextColor="Gray"
+                           HorizontalOptions="Center" />
+
+                    <!-- Chiffre principal -->
+                    <Label Text="{Binding TastedCount}"
+                           FontSize="64" FontAttributes="Bold"
+                           TextColor="#4A2E1B"
+                           HorizontalOptions="Center" />
+
+                    <!-- Boutons + / - -->
+                    <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
+                        <Button Grid.Column="0"
+                                Text="- 1"
+                                Command="{Binding DecrementCommand}"
+                                BackgroundColor="#E0E0E0"
+                                TextColor="#4A2E1B"
+                                FontAttributes="Bold"
+                                FontSize="20"
+                                CornerRadius="12"
+                                HeightRequest="55" />
+                        <Button Grid.Column="1"
+                                Text="+ 1"
+                                Command="{Binding IncrementCommand}"
+                                BackgroundColor="#4A2E1B"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                FontSize="20"
+                                CornerRadius="12"
+                                HeightRequest="55" />
+                    </Grid>
+
+                    <Button Text="Remettre à zéro"
+                            Command="{Binding ResetCommand}"
+                            BackgroundColor="Transparent"
+                            TextColor="Gray"
+                            FontSize="13"
+                            BorderColor="#E0E0E0"
+                            BorderWidth="1"
+                            CornerRadius="8"
+                            HeightRequest="38" />
+
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- ===== À propos ===== -->
+            <Border StrokeShape="RoundRectangle 15" Padding="20" StrokeThickness="1">
+                <Border.Stroke>
+                    <SolidColorBrush Color="#E0E0E0" />
+                </Border.Stroke>
+                <VerticalStackLayout Spacing="8" HorizontalOptions="Center">
+                    <Image Source="logo_benadam.png"
+                           HeightRequest="70"
+                           HorizontalOptions="Center" />
+                    <Label Text="BenAdam Beer Co."
+                           FontSize="18" FontAttributes="Bold"
+                           TextColor="#4A2E1B" HorizontalOptions="Center" />
+                    <Label Text="Version 1.0"
+                           FontSize="13" TextColor="Gray"
+                           HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>

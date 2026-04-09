@@ -63,10 +63,7 @@ public class ExtraViewModel : INotifyPropertyChanged
 
     private void SuggestRandomBeer()
     {
-        var allBeers = BeerStore.MyBeers.Count > 0
-            ? BeerStore.MyBeers
-            : _mockBeers;
-
+        var allBeers = _mockBeers.Concat(BeerStore.MyBeers).ToList();
         SuggestedBeer = allBeers[_random.Next(allBeers.Count)];
     }
 

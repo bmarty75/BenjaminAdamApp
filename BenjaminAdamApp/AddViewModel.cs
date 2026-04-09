@@ -64,7 +64,7 @@ public class AddViewModel : INotifyPropertyChanged
         ImageUrl = string.Empty;
 
         // Naviguer vers l'onglet des bières (index 1)
-        await Shell.Current.GoToAsync("//ListPage");
+        await Shell.Current.GoToAsync("//listpage");
     }
 
     public event PropertyChangedEventHandler? PropertyChanged;

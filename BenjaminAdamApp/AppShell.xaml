@@ -17,7 +17,7 @@
         </Tab>
 
         <Tab Title="Découvrir" Icon="list_icon.png">
-            <ShellContent ContentTemplate="{DataTemplate local:ListPage}" />
+            <ShellContent Route="listpage" ContentTemplate="{DataTemplate local:ListPage}" />
         </Tab>
 
         <Tab Title="Ajouter" Icon="add_icon.png">
